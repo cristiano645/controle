@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+   <nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">Health life
+
+    </label>
+		<ul>
+			<li><a  href="#">Início</a></li>
+			<li><a href="#">Sobre</a></li>
+			<li><a href="#">Serviços</a></li>
+			<li><a class="active"  href="#">Contato</a></li>
+		</ul>
+	</nav>
+
+
+<div class="container">
+  <div class="header">
+    <h2>Entre em contato</h2>
+  </div>
+
+  <form id="form" class="form">
+    <div class="form-control">
+      <label for="username">Nome</label>
+      <input
+        type="text" id="username" placeholder="Digite o seu nome..."/>
+      <i class="fas fa-exclamation-circle"></i>
+      <i class="fas fa-check-circle"></i>
+      <small>Mensagem de erro</small>
+    </div>
+
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="Digite seu email.." />
+      <i class="fas fa-exclamation-circle"></i>
+      <i class="fas fa-check-circle"></i>
+      <small>Mensagem de erro</small>
+
+      <div class="form-control">
+        <label for="textoo">Sobre </label>
+        <textarea  id="textarea" placeholder="Sua duvida..."
+rows="10" cols="50"></textarea>
+</div>
+        
+
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/b1670abc0a.js" crossorigin="anonymous"></script>
+</body>
+</html>
